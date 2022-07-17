@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">E-Commerce</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="todo">TODO</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="home">Home</string>
+    <string name="favorites">Favorites</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="boxStrokeColor">@color/grey</item>
+
+    </style>
+
+    <style name="ErrorAppearance" parent="TextAppearance.Design.Error">
+
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#931a25</item>
+
+    </style>
+
+    <style name="HintAppearance" parent="TextAppearance.Design.Hint">
+
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/grey</item>
+
+    </style>
+
+
+</resources>
